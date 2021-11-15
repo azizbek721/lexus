@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-one{
+    font-family: Nobel Light,Helvetica,Arial,Roboto,sans-serif;
+    border: 1px solid whitesmoke;
+}
+.nav-one a{
+    text-decoration: none;
+    color: #5b6164;
+    font-size: 0.875rem;
+}
+.nav{
+    margin: 12px 20px;
+}
+.nav a:hover{
+    border-bottom: 1px solid #5b6164; 
+}
+.navbar-brand img{
+    width: 136px;
+    height: 32px;
+}
+.nav-two{
+    height: 140px;
+    background: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.navbar-nav{
+    font-family: Nobel Light,Helvetica,Arial,Roboto,sans-serif;
+}
+.nav-gr{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 80%;
+    margin: auto;
+}
+.navbar-nav a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #1a1a1a;
+}
+.navbar-nav a:hover{
+    border-bottom: 1px solid;
+    color: #1a1a1a;
+}
+.nav2-icons{
+    margin-right: 40px;
+}
+.nav2-icons a{
+    color: #5b6164;
+}
+.navbar3-brand{
+    border-right: 1px solid black;
+    font-size: 0.875rem;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.nav-three{
+    border-bottom: 1px solid;
+}
+.header-img img{
+    width: 1140px;
+}
+.card{
+    border: none;
+}
+.card img{
+    width: 283px;
+    height: 130px;
+    padding: 0 20px 0 16px;
+}
+.card-title1{
+    border-bottom: 1px solid #5b6164;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.card-text{
+    font-size: 12px;
+}
+.card-body4{
+    border-bottom: 1px solid #5b6164;
+}
+footer{
+    border-top: 1px solid gray;
+    margin-top: 90px;
+}
+.foot-ul{
+    width: 25%;
+}
+.row li{
+    list-style: none;
+    padding-top: 12px;
+}
+.footer-inner a{
+    text-decoration: none;
+    color: #5b6164;
+}
+.row h4{
+    font-size: 14px;
+}
+
+@media (max-width: 400px){
+    .navbar-brand img{
+        width: 147px;
+        height: 34px;
+    }
+    .header-img img{
+        width: 335px;
+        height: 125px;
+    }
+    .footer-ul{
+        display: block;
+    }
+}
+
+@media (min-width: 769){
+    .header-img img{
+        width: 130px!important;
+        height: 525px;
+    }
+    .footer-ul{
+        display: block;
+    }
+}
